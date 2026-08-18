@@ -71,3 +71,9 @@
 /* Current section navigation */
 .nav nav button.active{color:#8bc8ed}.nav nav button.active:after{width:100%;background:linear-gradient(90deg,#67c1bd,#6698d8)}
 .mobile-nav button.active{color:#8bc8ed;border-bottom-color:rgba(102,167,216,.5)}.mobile-nav button.active span{color:#67c1bd}
+
+/* Hero information emphasis */
+.hero-name{position:relative}.hero-location{position:absolute;right:5%;bottom:.5rem;margin:0;padding-left:22px;font-size:1.05rem;font-weight:550;letter-spacing:.01em;color:#b9d3e7}.hero-location:before{content:'';position:absolute;left:0;top:50%;width:11px;height:11px;border:2px solid #67b7d8;border-radius:50%;transform:translateY(-50%);box-shadow:0 0 0 4px rgba(103,183,216,.09)}
+.role{font-size:clamp(1.25rem,1.8vw,1.75rem)}.hero-facts{font-size:1rem;font-weight:500;line-height:1.55;color:#d2dae1;max-width:250px}
+.hero-social a{width:48px;height:48px}.hero-social svg{width:21px;height:21px;stroke-width:1.7}
+@media(max-width:900px){.hero-location{position:relative;right:auto;bottom:auto;margin:1.5rem 0 0 .4rem;font-size:.96rem}.hero-facts{display:flex;font-size:.92rem}.role{font-size:1.25rem}.hero-social a{width:44px;height:44px}.hero-social svg{width:20px;height:20px}}
