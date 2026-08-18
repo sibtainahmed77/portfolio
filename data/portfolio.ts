@@ -2,12 +2,13 @@ export const nav = ['About','Experience','Projects','Skills','Education','Certif
 export const social = {
   github: 'https://github.com/sibtainahmed77',
   linkedin: 'https://www.linkedin.com/in/sibtain-ahmed-632292290/',
-  email: 'mailto:sibtain.ahmed19@gmail.com'
+  email: 'mailto:sibtain.ahmed19@gmail.com',
+  whatsapp: 'https://wa.me/923183489210'
 };
 export const experience = { company:'1LINK (Pvt) Limited', role:'SQA Intern', team:'Digital Technology & Solutions', period:'Present', location:'Karachi, Pakistan', summary:'Learning how APIs, specifications, and transaction flows are tested within a professional payment environment.', areas:['Manual testing','API testing','Postman','Swagger / OpenAPI','REST & JSON','Payment flows','ISO 8583 concepts','Certification testing'] };
 export const projects = [
-  {number:'01',name:'Job Application Tracking System',description:'A MERN dashboard for managing applications and interview progress.',tech:['React.js','Node.js','Express.js','MongoDB','JWT','Docker'],features:['Application tracking','Secure authentication','Central dashboard'],tone:'amber',imagePosition:'left',github:'https://github.com/sibtainahmed77/Job-Application-Tracker'},
-  {number:'02',name:'Student Management System',description:'An ASP.NET Core MVC system for students, courses, and academic records.',tech:['ASP.NET Core','MVC','REST APIs','Swagger','SQL'],features:['Student and course records','Modular services','API documentation'],tone:'blue',imagePosition:'right',github:'https://github.com/sibtainahmed77/StudentManagementSystem'}
+  {number:'01',name:'Job Application Tracking System',description:'A MERN dashboard for managing applications and interview progress.',tech:['React.js','Node.js','Express.js','MongoDB','JWT','Docker'],features:['Application tracking','Secure authentication','Central dashboard'],tone:'amber',imagePosition:'left',github:'https://github.com/sibtainahmed77/Job-Application-Tracker',video:'/videos/jat-demo-optimized.mp4',images:null},
+  {number:'02',name:'Student Management System',description:'An ASP.NET Core MVC system for students, courses, and academic records.',tech:['ASP.NET Core','MVC','REST APIs','Swagger','SQL'],features:['Student and course records','Modular services','API documentation'],tone:'blue',imagePosition:'right',github:'https://github.com/sibtainahmed77/StudentManagementSystem',video:null,images:[1,2,3,4,5].map(number=>`/images/student-management/screen-${number}.png`)}
 ];
 export const skills = [
   {group:'Frontend',items:['React.js','JavaScript','HTML','CSS']},
