@@ -46,14 +46,14 @@
 
 /* Readable interface typography */
 .eyebrow,.section-index{font-size:.78rem;letter-spacing:.13em;font-weight:500;line-height:1.4}
-.wordmark{font-size:.82rem;letter-spacing:.12em}.nav nav button{font-size:.78rem;letter-spacing:.035em;font-weight:500}
+.wordmark{font-size:.94rem;letter-spacing:.1em;font-weight:650}.nav nav button{font-size:.78rem;letter-spacing:.035em;font-weight:500}
 .button{font-size:.86rem;font-weight:550;letter-spacing:-.01em;min-height:55px;padding:0 22px}.hero-facts{font-size:.84rem}.role{letter-spacing:.055em}.statement{font-size:1rem}
 .experience-top{font-size:.76rem;letter-spacing:.1em}.experience-main small{font-size:.8rem}.exposure>p{font-size:.74rem;letter-spacing:.1em}.exposure span{font-size:.79rem;line-height:1.25;padding:10px 14px}
 .project-number{font-size:.78rem;letter-spacing:.1em}.project-copy>p{font-size:1rem}.project ul{font-size:.82rem;line-height:1.9}.tech span{font-size:.76rem;padding:8px 11px}.project-links a,.contact-links a{font-size:.86rem;font-weight:550}.project-visual span{font-size:.66rem;letter-spacing:.08em;padding:8px 10px}
 .skill-row>span,.timeline-no{font-size:.74rem}.skill-row p{font-size:.8rem;padding:10px 13px}.timeline small{font-size:.8rem}
 .cert>span:first-child{font-size:.74rem}.cert p{font-size:.82rem;color:#959da8}.credential{font-size:.7rem;letter-spacing:.045em;font-weight:600}
 .contact footer{font-size:.7rem;letter-spacing:.07em}.contact-bottom>p{line-height:1.55}
-@media(max-width:900px){.eyebrow,.section-index{font-size:.72rem}.nav{height:70px}.wordmark{font-size:.76rem}.button{font-size:.84rem;min-height:52px}.project-links a,.contact-links a{font-size:.84rem}.credential{font-size:.62rem;line-height:1.35}.project-visual span{font-size:.61rem}.contact footer{font-size:.66rem}}
+@media(max-width:900px){.eyebrow,.section-index{font-size:.72rem}.nav{height:70px}.wordmark{font-size:.84rem}.button{font-size:.84rem;min-height:52px}.project-links a,.contact-links a{font-size:.84rem}.credential{font-size:.62rem;line-height:1.35}.project-visual span{font-size:.61rem}.contact footer{font-size:.66rem}}
 
 /* Social icon hover labels */
 .hero-social a{position:relative;width:42px;height:42px;display:flex;align-items:center;justify-content:center;border:1px solid transparent;border-radius:50%;transition:transform .35s cubic-bezier(.2,.8,.2,1),background-color .3s,border-color .3s,color .3s}
